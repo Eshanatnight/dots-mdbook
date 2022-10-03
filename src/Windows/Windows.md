@@ -20,6 +20,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 - gh
 - ripgrep
+- llvm
 
 ### Winget
 
@@ -43,3 +44,40 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - Bitwarden.Bitwarden
 - msys2.msys2
 - Microsoft.VisualStudioCode
+- Oracle.JDK.19
+- HXAM
+
+### In Script
+
+```powershell
+winget install Google.Chrome
+winget install Google.Drive
+winget install Giorgiotani.Peazip
+winget install Kitware.CMake
+winget install Microsoft.PowerToys
+winget install TheDocumentFoundation.LibreOffice
+winget install OpenJS.NodeJS
+winget install Rustlang.Rustup
+winget install SumatraPDF.SumatraPDF
+winget install GnuWin32.Tar
+winget install VLC media player
+winget install Vivaldi
+winget install OliverSchwendener.ueli
+winget install JanDeDobbeleer.OhMyPosh
+winget install Rainmeter.Rainmeter
+winget install Microsoft.WindowsTerminal
+winget install Git.Git
+winget install Bitwarden.Bitwarden
+winget install msys2.msys2
+winget install Microsoft.VisualStudioCode
+winget install Oracle.JDK.19
+winget install HXAM
+```
+
+</br>
+
+```shell
+choco install gh
+choco install ripgrep
+choco install llvm
+```

@@ -1,7 +1,10 @@
 # Summary
 
 - [Windows](./Windows/Windows.md)
-  - [cpp](./Windows/cpp.md)
+  - [cpp](./Windows/cpp/cpp.md)
+    - [msvs](./Windows/cpp/msvs.md)
+    - [msys2](./Windows/cpp/msys.md)
+    - [vcpkg & cmake](./Windows/cpp/vc.md)
   - [rust](./Windows/rust.md)
   - [settings](./Windows/settings.md)
 - [Windows Terminal](./Windows-Terminal/Windows-Terminal.md)
@@ -9,3 +12,4 @@
 - [Windows Subsystem for Linux](./wsl/wsl.md)
 - [Git](./git/git.md)
 - [Database](./Database/database.md)
+- [dotfiles](./dotfiles/dotfiles.md)

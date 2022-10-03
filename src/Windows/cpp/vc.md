@@ -1,70 +1,6 @@
-# CPP
-
-## Visual Studio
-
-Installations is simple. Just download the installer from [here](https://visualstudio.microsoft.com/downloads/).
+# Vcpkg & CMake
 
 ---
-
-> **Visual C++ Compiler stdc++=20**
-
-### Installation guide
-
-~ Install Visual Sudio
-
-~ Modify Installation
-
-~ Individual Components > search ``` modules ```
-
-### Activation
-
-* Solution Properties > Configuration Properties > General: C++ Language Standard = "Preview - Features from the Latest C++ Working Draft (/std:c++latest)"
-
-* Solution Properties > C/C++ > Language : Enable External C++ Standard Library Modules = "Yes(/experimental:module)"
-
-### **import commands**
-
-* std.filesystem -> `<filesystem>`
-* std.regex -> `<regex>`
-* std.memory -> `<memory>`
-* std.threading -> `<atomic>, <condition_variable>, <future>, <mutex>, <shared_mutex> and <thread>`
-* std.core -> Everything else in the Standard Library
-
-> Note: -> = Provides the contents of headers
-
----
-
-## MinGW
-
-MSYS2 should be installed via winget.
-
-In the event that it is not, it can be installed from [here](https://www.msys2.org/).
-
-### Installing/Updating the MSYS2 toolchain
-
-To update the MSYS2-MINGW toolchain just run the following command in the MSYS2 bash shell.
-
-```terminal
-pacman -Syu
-
-pacman -S mingw-w64-x86_64-toolchain
-```
-
-To update the MSYS2-clang toolchain just run the following command in the MSYS2 bash shell.
-
-```terminal
-pacman -Syu
-
-pacman -S mingw-w64-clang-x86_64-toolchain
-```
-
-> To update the toolchain use the `-u` flag with the `-S` flag.
-
----
-
-## CMake
-
-CMake can be installed via winget.
 
 ## Vcpkg
 
@@ -130,6 +66,12 @@ place where the top level `CMakelists.txt` file is.
 }
 ```
 
+---
+
+## CMake
+
+### VSCode Settings
+
 To use CMake and vcpkg in Manifest Mode. Add the following to the vscode `settings.json` file.
 
 ```json
@@ -137,4 +79,11 @@ To use CMake and vcpkg in Manifest Mode. Add the following to the vscode `settin
      "CMAKE_TOOLCHAIN_FILE": "path/to/vcpkg/scripts/buildsystems/vcpkg.cmake"
 }
 "cmake.configureOnOpen": true
+```
+
+### CMAKE Common Settings
+
+```cmake
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 ```
