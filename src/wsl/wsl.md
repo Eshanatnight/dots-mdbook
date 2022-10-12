@@ -42,7 +42,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 
 ### Config Files
 
-the config files can be found in the [dotfiles](https://github.com/Eshanatnight/dotfiles) repo
+the config files can be found in the [dotfiles](https://github.com/Eshanatnight/dotfiles/tree/main/wsl) repo
 
 ---
 
