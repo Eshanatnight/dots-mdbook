@@ -123,3 +123,17 @@ Now, remove the cached submodule
 ```terminal
 git rm --cached <submodule_dir-name>
 ```
+
+## Removing Remote Tracking
+
+```terminal
+git remote remove origin
+```
+
+----
+
+## Git Setting up new Remote
+
+```terminal
+git remote set-url origin git://new.url.here
+```
