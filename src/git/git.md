@@ -99,3 +99,27 @@ git rebase <base>
 # <base> can ben ID, a branch name, a tag, or a relative reference to HEAD
 
 ```
+
+----
+
+## Submodule Already in Index Error
+
+```terminal
+# Remove submodule
+git submodule deinit -f <submodule-name>
+rmr .gitmodules
+```
+
+Or
+
+```terminal
+# Remove all submodule
+git submodule deinit -f --all
+rmr .gitmodules
+```
+
+Now, remove the cached submodule
+
+```terminal
+git rm --cached <submodule_dir-name>
+```
