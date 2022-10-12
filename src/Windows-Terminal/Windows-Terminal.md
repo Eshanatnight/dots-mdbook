@@ -1,7 +1,7 @@
 # Windows Terminal
 
-- [settings.json](".\settings.json")
-- [Powershell Folder](".\Powershell")
+- [settings.json](https://github.com/Eshanatnight/dotfiles/blob/main/Windows%20Terminal/settings.json)
+- [Powershell Folder](https://github.com/Eshanatnight/dotfiles/tree/main/Windows%20Terminal/PowerShell)
 
 ## settings.json
 
@@ -9,9 +9,9 @@ contains the settings for the terminal. Themes, colors, etc.
 
 ## Powershell Folder
 
-- [Powershell_Profile](./Powershell/Microsoft.PowerShell_profile.ps1)
-- [setup](./Powershell/setup-windows-terminal.ps1)
-- [theme](./Powershell/Theme/)
+- [Powershell_Profile](https://github.com/Eshanatnight/dotfiles/blob/main/Windows%20Terminal/PowerShell/Microsoft.PowerShell_profile.ps1)
+- [setup](https://github.com/Eshanatnight/dotfiles/blob/main/Windows%20Terminal/PowerShell/setup-windows-terminal.ps1)
+- [theme](https://github.com/Eshanatnight/dotfiles/tree/main/Windows%20Terminal/PowerShell/Theme)
 
 ## Powershell_Profile
 
@@ -35,7 +35,7 @@ Then restart the Terminal.
 
 ### How to install pip?
 
-If for some reason you dont have pip installed in your computer. Run the [python script](../Python/get-pip.py)
+If for some reason you dont have pip installed in your computer. Run the [python script](https://github.com/Eshanatnight/dotfiles/blob/main/Python/get-pip.py)
 
 ```terminal
 cd python get-pip.py
@@ -43,7 +43,7 @@ cd python get-pip.py
 
 ## Removed Settings
 
-Settings that are removed from the [settings.json](./settings.json) of the Windows Terminal.
+Settings that are removed from the ```settings.json``` of the Windows Terminal.
 
 ```json
 {
