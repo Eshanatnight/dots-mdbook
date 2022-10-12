@@ -4,7 +4,9 @@
 
 The Settings files can be found
 
-[Visual Studio](https://github.com/Eshanatnight/dotfiles/tree/main/.visual-sutdio-settings)
+[Visual Studio Settings](https://github.com/Eshanatnight/dotfiles/blob/main/.visual-sutdio-settings/.vs.settings.tar.gz.tar.gz?raw=true)
+
+[Visual Studio Extentions](https://github.com/Eshanatnight/dotfiles/blob/main/.visual-sutdio-settings/vs-extention.tar.gz?raw=true)
 
 [Jetbrains](https://github.com/Eshanatnight/dotfiles/tree/main/.jetbrains-settings)
 
