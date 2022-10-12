@@ -1,0 +1,3 @@
+[submodule "submodule/dots-book"]
+	path = submodule/dots-book
+	url = git@github.com:Eshanatnight/dots-book.git
